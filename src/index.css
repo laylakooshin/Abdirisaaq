@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background: #ccc;
+}
+
+
+
+
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  height: 60vh;
+  margin: 15vh auto;
+  
+
+}
+
+.form input{
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: 1px solid  #007bff;
+}
+
+
+button{
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+
+.birthdays-container{
+  padding: 10px 0;
+  width: 40%;
+  margin:10vh 30%;
+  height: 80vh;
+  box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+}
+.birthdays-container h1{
+  text-align: center;
+}
+
+.birthdays-container h3{
+  text-align: center;
+  padding: 5px;
+  background: #ccc;
+  margin-left: 15px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.birthdays-container h3 i.bi-person-check{
+  color: #007bff;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.birthdays-container h3 i.ok{
+  color: #0056b3;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+
+.dob{
+  color: #007bff;
+  margin-left: 20px;
+}
+
+
+nav{
+  width: 100%;
+  height: 50px;
+  background: #0056b3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin: 0px 15px;
+}
+
+nav a:hover{
+  color: #ccc;
+}
+
+
+
+.out{
+  height: 40px;
+ position: absolute;
+ top:-15px;
+ right: 20px;
+}
+
+.cong{
+  margin-left: 15px;
+
+}
+.cong i{
+  color: #0056b3;
+  font-size: xx-large;
+  margin-right: 10px;
+}
